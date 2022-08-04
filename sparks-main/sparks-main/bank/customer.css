@@ -1,0 +1,65 @@
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  body {
+    background: #33CCCC; 
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2.5em;
+    color: white;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightseagreen;
+}
+
+
+.bg-light{
+    background-color: lightskyblue!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f100;
+}
+
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(255, 0, 0)!important;
+    color: rgb(255, 255, 255)!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.btn-info:hover{
+    background-color: rgb(216, 218, 238)!important;
+}
